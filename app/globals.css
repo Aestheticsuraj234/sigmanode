@@ -88,7 +88,7 @@
 }
 
 .black_btn {
-  @apply rounded-full border  bg-gradient-to-r from-rose-700 to-pink-600 py-1.5 px-5 text-white transition-all  text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border  bg-gradient-to-r from-rose-700 to-pink-600 py-1.5 px-5 text-white transition-all  text-center text-sm  flex items-center justify-center;
 }
 
 
