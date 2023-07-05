@@ -6,6 +6,8 @@ import { GlobalContextProvider } from '@/context/globalContext';
 import SigmaLogoHeader from '@/Components/SigmaLogoHeader';
 import Provider from '@/Components/Provider';
 import Footer from '@/Components/Footer';
+import { useClient } from 'next/client';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
+  const pathname = useClient(usePathname());
   
   
   return (
