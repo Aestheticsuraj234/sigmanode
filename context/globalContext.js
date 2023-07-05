@@ -1,6 +1,6 @@
 "use client"
-import React, { useState, createContext, useEffect } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import React, { useState, createContext } from 'react';
+import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
