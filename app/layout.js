@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from '@/Components/Header';
 import { Inter } from 'next/font/google'
+
 import { GlobalContextProvider } from '@/context/globalContext';
 import Provider from '@/Components/Provider';
 import Footer from '@/Components/Footer';

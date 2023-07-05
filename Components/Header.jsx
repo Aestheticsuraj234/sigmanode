@@ -26,7 +26,7 @@ const Header = () => {
   const { handleToggleUserProfile,toggleUserProfile,handleToggleNotificationCard, toggleNotificationCard, handleToggleUpdateCard, toggleUpdateCard, toggleDark, toggleMenu, handleToggleMenu, handleToggleDark, handleToggleSearchBar, toggleSearchBar } = useContext(GlobalContext)
 
   return (
-    <nav className="flex-between w-full mb-10 pt-3">
+    <nav className=" flex justify-between items-center w-full mb-10 pt-3">
       <div className="flex gap-2 flex-center">
         <div
           onClick={handleToggleMenu}
