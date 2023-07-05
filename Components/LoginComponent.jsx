@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect ,useContext} from 'react';
 import Image from 'next/image';
-import { useSession, signIn, getProviders } from 'next-auth/react';
+import { useSession, getProviders } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
 import { ToastContainer, toast } from 'react-toastify';
@@ -111,7 +111,6 @@ const LoginComponent = () => {
                                     <a
                                         href="#!"
                                         onClick={() => router.push("/onBoard")}
-
                                         className="text-blue-600 font-semibold transition duration-150 ease-in-out hover:text-blue-600 focus:text-blue-600 active:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 dark:focus:text-blue-500 dark:active:text-blue-600"
                                     >
                                         Don't have an account
